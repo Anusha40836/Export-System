@@ -24,6 +24,7 @@ export async function startCSVExport(): Promise<{
       EXPORT_BUCKET,
       objectName,
       csvStream,
+      undefined,
       {
         "Content-Type": "text/csv",
       }
